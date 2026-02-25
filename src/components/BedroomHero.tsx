@@ -43,7 +43,7 @@ const BedroomHero = () => {
               <div className="flex items-center gap-2 text-sm">
                 <div className="w-1.5 h-1.5 bg-gold rounded-full" />
                 <span className="text-charcoal">
-                  Free next-day delivery on beds
+                  Fast delivery from 3 working days
                 </span>
               </div>
               <div className="flex items-center gap-2 text-sm">

@@ -322,13 +322,8 @@ const ProductDetail = () => {
                 <Truck className="w-4 h-4 text-sage flex-shrink-0" />
                 <span className="text-sm text-charcoal">
                   <span className="font-medium">
-                    Delivery in {product.deliveryDays} working days
+                    Fast delivery in {product.deliveryDays} working days
                   </span>
-                  {product.price >= 499 && (
-                    <span className="text-sage ml-1">
-                      &mdash; Free delivery
-                    </span>
-                  )}
                 </span>
               </div>
               <div className="flex items-center gap-2.5">

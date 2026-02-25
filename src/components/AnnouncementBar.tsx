@@ -6,8 +6,7 @@ const AnnouncementBar = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-center gap-6 md:gap-10 text-xs md:text-sm font-light tracking-wide">
         <span className="flex items-center gap-1.5">
           <Truck className="w-3.5 h-3.5 text-gold-light" />
-          <span className="hidden sm:inline">Free delivery on orders over</span>
-          <span className="sm:hidden">Free delivery</span> &pound;499
+          Fast Delivery from 3 Working Days
         </span>
         <span className="hidden md:inline text-stone-dark">|</span>
         <span className="flex items-center gap-1.5">
