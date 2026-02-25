@@ -87,7 +87,7 @@ const Returns = () => {
       <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 sm:pb-24">
         <div className="space-y-12">
           {/* 1. Your Right to Cancel */}
-          <article>
+          <section>
             <div className="flex items-center gap-3 mb-4">
               <div className="w-8 h-8 bg-charcoal text-white rounded-full flex items-center justify-center text-sm font-semibold">
                 1
@@ -123,10 +123,10 @@ const Returns = () => {
                 cancel before the cancellation period has expired.
               </p>
             </div>
-          </article>
+          </section>
 
           {/* 2. How to Return an Item */}
-          <article>
+          <section>
             <div className="flex items-center gap-3 mb-4">
               <div className="w-8 h-8 bg-charcoal text-white rounded-full flex items-center justify-center text-sm font-semibold">
                 2
@@ -185,10 +185,10 @@ const Returns = () => {
                 expired.
               </p>
             </div>
-          </article>
+          </section>
 
           {/* 3. Condition of Returned Goods */}
-          <article>
+          <section>
             <div className="flex items-center gap-3 mb-4">
               <div className="w-8 h-8 bg-charcoal text-white rounded-full flex items-center justify-center text-sm font-semibold">
                 3
@@ -236,10 +236,10 @@ const Returns = () => {
                 </div>
               </div>
             </div>
-          </article>
+          </section>
 
           {/* 4. Refunds */}
-          <article>
+          <section>
             <div className="flex items-center gap-3 mb-4">
               <div className="w-8 h-8 bg-charcoal text-white rounded-full flex items-center justify-center text-sm font-semibold">
                 4
@@ -281,10 +281,10 @@ const Returns = () => {
                 reimbursement.
               </p>
             </div>
-          </article>
+          </section>
 
           {/* 5. Cost of Returns */}
-          <article>
+          <section>
             <div className="flex items-center gap-3 mb-4">
               <div className="w-8 h-8 bg-charcoal text-white rounded-full flex items-center justify-center text-sm font-semibold">
                 5
@@ -343,10 +343,10 @@ const Returns = () => {
                 delivered in error.
               </p>
             </div>
-          </article>
+          </section>
 
           {/* 6. Faulty, Damaged, or Incorrect Goods */}
-          <article>
+          <section>
             <div className="flex items-center gap-3 mb-4">
               <div className="w-8 h-8 bg-charcoal text-white rounded-full flex items-center justify-center text-sm font-semibold">
                 6
@@ -410,10 +410,10 @@ const Returns = () => {
                 </div>
               </div>
             </div>
-          </article>
+          </section>
 
           {/* 7. Made-to-Order and Bespoke Items */}
-          <article>
+          <section>
             <div className="flex items-center gap-3 mb-4">
               <div className="w-8 h-8 bg-charcoal text-white rounded-full flex items-center justify-center text-sm font-semibold">
                 7
@@ -437,10 +437,10 @@ const Returns = () => {
                 or refund as outlined above.
               </p>
             </div>
-          </article>
+          </section>
 
           {/* 8. Cancelling Before Delivery */}
-          <article>
+          <section>
             <div className="flex items-center gap-3 mb-4">
               <div className="w-8 h-8 bg-charcoal text-white rounded-full flex items-center justify-center text-sm font-semibold">
                 8
@@ -461,10 +461,10 @@ const Returns = () => {
                 delivery or follow the standard returns process once received.
               </p>
             </div>
-          </article>
+          </section>
 
           {/* 9. Exchanges */}
-          <article>
+          <section>
             <div className="flex items-center gap-3 mb-4">
               <div className="w-8 h-8 bg-charcoal text-white rounded-full flex items-center justify-center text-sm font-semibold">
                 9
@@ -481,10 +481,10 @@ const Returns = () => {
                 quickly as possible.
               </p>
             </div>
-          </article>
+          </section>
 
           {/* 10. Sale and Discounted Items */}
-          <article>
+          <section>
             <div className="flex items-center gap-3 mb-4">
               <div className="w-8 h-8 bg-charcoal text-white rounded-full flex items-center justify-center text-sm font-semibold">
                 10
@@ -500,10 +500,10 @@ const Returns = () => {
                 promotional pricing.
               </p>
             </div>
-          </article>
+          </section>
 
           {/* Model Cancellation Form */}
-          <article className="border-t border-stone/40 pt-12">
+          <section className="border-t border-stone/40 pt-12">
             <h2 className="font-display text-2xl font-semibold text-charcoal mb-4">
               Model Cancellation Form
             </h2>
@@ -541,10 +541,10 @@ const Returns = () => {
               <p className="text-sm">Date: _______________</p>
               <p className="text-xs text-taupe">[*] Delete as appropriate</p>
             </div>
-          </article>
+          </section>
 
           {/* Contact CTA */}
-          <article className="bg-charcoal text-white p-8 sm:p-10">
+          <section className="bg-charcoal text-white p-8 sm:p-10">
             <h2 className="font-display text-2xl font-semibold mb-3">
               Need Help with a Return?
             </h2>
@@ -569,7 +569,7 @@ const Returns = () => {
                 returns@ncf.co.uk
               </a>
             </div>
-          </article>
+          </section>
 
           {/* Legal note */}
           <div className="text-xs text-taupe leading-relaxed border-t border-stone/40 pt-8">
