@@ -5,7 +5,7 @@ import ProductDetail from "@/pages/ProductDetail";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/furniture">
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/products" element={<ProductListing />} />
