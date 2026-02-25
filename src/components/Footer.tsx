@@ -121,20 +121,20 @@ const Footer = () => {
             </h4>
             <ul className="space-y-2.5">
               {[
-                "Delivery Information",
-                "Returns & Refunds",
-                "Finance Options",
-                "FAQs",
-                "Care Guides",
-                "Assembly Guides",
-                "Track Your Order",
+                { label: "Delivery Information", to: "/" },
+                { label: "Returns & Refunds", to: "/returns" },
+                { label: "Finance Options", to: "/" },
+                { label: "FAQs", to: "/" },
+                { label: "Care Guides", to: "/" },
+                { label: "Assembly Guides", to: "/" },
+                { label: "Track Your Order", to: "/" },
               ].map((item) => (
-                <li key={item}>
+                <li key={item.label}>
                   <Link
-                    to="/"
+                    to={item.to}
                     className="text-sm text-stone-dark hover:text-white transition-colors"
                   >
-                    {item}
+                    {item.label}
                   </Link>
                 </li>
               ))}
