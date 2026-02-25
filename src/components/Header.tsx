@@ -47,28 +47,6 @@ const navItems = [
       "Sideboards",
     ],
   },
-  {
-    label: "Chairs",
-    href: "/products?category=Chairs",
-    submenu: [
-      "Armchairs",
-      "Accent Chairs",
-      "Recliners",
-      "Swivel Chairs",
-      "Footstools",
-    ],
-  },
-  {
-    label: "Storage",
-    href: "/products?category=Storage",
-    submenu: [
-      "TV Units",
-      "Bookcases",
-      "Sideboards",
-      "Coffee Tables",
-      "Console Tables",
-    ],
-  },
   { label: "Sale", href: "/products?sale=true", highlight: true },
 ];
 

@@ -101,9 +101,6 @@ const Footer = () => {
                 "Sofas & Corners",
                 "Beds & Mattresses",
                 "Dining & Kitchen",
-                "Chairs & Recliners",
-                "Storage",
-                "Accessories",
                 "Sale",
               ].map((item) => (
                 <li key={item}>
